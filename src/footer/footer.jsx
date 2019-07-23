@@ -5,8 +5,10 @@ class Footer extends Component {
   year = `${new Date().getFullYear()}`;
   render() {
     return (
-      <div className="footer p-2 text-center">
-        <span>© {this.year} Maya Goldberg</span>
+      <div className="pt-5 text-center">
+        <div className="footer p-3">
+          <span>© {this.year} Maya Goldberg</span>
+        </div>
       </div>
     );
   }

@@ -5,7 +5,7 @@ import './skills.css';
 class Skills extends Component {
   render() {
     return (
-      <div id="skills">
+      <div id="skills" data-aos="fade-up">
         <h1 className="font-weight-bold py-5 text-center"><i className="fas fa-edit pr-3"/>Skills</h1>
         <Table borderless>
           <tbody>

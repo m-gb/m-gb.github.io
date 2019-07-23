@@ -4,7 +4,7 @@ import './projects.css';
 class Projects extends Component {
   render() {
     return (
-      <div id="projects">
+      <div id="projects" data-aos="fade-up" className="pt-5">
         <h1 className="font-weight-bold py-5 text-center"><i className="fas fa-code pr-3" />Recent Projects</h1>
         <div className="row">
           <div className="col-lg-4">

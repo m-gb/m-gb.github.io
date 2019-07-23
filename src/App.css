@@ -1,7 +1,9 @@
-span {
-    font-size: 1.3rem;
+@media screen and (min-width: 1200px) {
+    #projects, #skills, #contact {
+        height: 80vh;
+    }
 }
 
-#projects, #skills, #contact {
-    height: 80vh;
+span {
+    font-size: 1.3rem;
 }
