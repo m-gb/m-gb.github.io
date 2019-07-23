@@ -5,6 +5,7 @@ import Introduction from './introduction/introduction.jsx';
 import Projects from './projects/projects.jsx';
 import Skills from './skills/skills.jsx';
 import Contact from './contact/contact.jsx';
+import Footer from './footer/footer.jsx';
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
           <Skills />
           <Contact />
         </main>
+        <Footer />
       </div>
     );
   }
