@@ -1,5 +1,9 @@
 .galaxy-canvas {
     background-image: url('/galaxy.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .info {
