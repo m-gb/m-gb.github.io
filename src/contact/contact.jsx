@@ -4,8 +4,13 @@ import './contact.css';
 class Contact extends Component {
   render() {
     return (
-      <div id="contact">
-        <h1 className="font-weight-bold py-5 text-center"><i className="fas fa-envelope pr-3" />Contact</h1>
+      <div className="text-center" id="contact">
+        <h1 className="font-weight-bold py-3"><i className="fas fa-envelope pr-3" />Contact</h1>
+        <div className="contact-icons">
+          <h5 className="p-5">For more information, you can visit my GitHub and LinkedIn profiles.</h5>
+          <a className="p-3" href="https://il.linkedin.com/in/maya-goldberg-528689150?trk=people-guest_profile-result-card_result-card_full-click"><i className="fab fa-linkedin fa-2x" /></a>
+          <a className="p-3" href="https://github.com/m-gb"><i className="fab fa-github-square fa-2x" /></a>
+        </div>
       </div>
     );
   }

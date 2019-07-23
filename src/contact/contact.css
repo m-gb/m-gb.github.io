@@ -1,0 +1,7 @@
+.contact-icons a {
+    color: black;
+}
+
+.contact-icons a:hover {
+    color: #6c757d;
+}
