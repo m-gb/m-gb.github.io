@@ -7,7 +7,7 @@ class Skills extends Component {
     return (
       <div id="skills" data-aos="fade-up" className="py-5">
         <h1 className="font-weight-bold py-5 text-center"><i className="fas fa-edit pr-3"/>Skills</h1>
-        <Table borderless>
+        <Table borderless responsive="lg">
           <tbody>
             <tr>
               <th className="text-right">Programming Languages</th>
