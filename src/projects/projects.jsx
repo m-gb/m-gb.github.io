@@ -29,8 +29,7 @@ class Projects extends Component {
           </div>
           <div className="col-lg-4">
             <div className="card">
-              <img className="img-fluid hidden-img" src="/starrynight.png" alt="Starry Night" />
-              <i className="card-img-top fab fa-github fa-5x github-card" />
+              <img className="img-fluid" src="/github.png" alt="GitHub Page" />
               <div className="card-body">
                 <h5 className="card-title">GitHub Page</h5>
                 <p className="card-text"></p>
