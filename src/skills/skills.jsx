@@ -11,7 +11,7 @@ class Skills extends Component {
           <tbody>
             <tr>
               <th className="text-right">Programming Languages</th>
-              <td>JavaScript, Ruby</td>
+              <td>JavaScript, PHP, Ruby</td>
               <th className="text-right">Markup</th>
               <td>HTML, CSS</td>
             </tr>
@@ -23,7 +23,7 @@ class Skills extends Component {
             </tr>
             <tr>
               <th className="text-right">Backend Frameworks</th>
-              <td>Node.JS, Ruby on Rails</td>
+              <td>Node.JS, PHP Laravel, Ruby on Rails</td>
               <th className="text-right">Tools</th>
               <td>Git, Jenkins, Docker, JIRA, Photoshop</td>
             </tr>
