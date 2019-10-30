@@ -14,7 +14,7 @@ class Projects extends Component {
                 <h5 className="card-title">Dash of Oats</h5>
                 <p className="card-text">A cooking blog, including a servings calculator and a search function with suggestions</p>
                 <p className="card-text">Using Angular, Node.JS and MongoDB</p>
-                <a href="https://www.dashofoats.xyz" className="btn btn-secondary">View Project</a>
+                <a href="https://dashofoats.mayagoldberg.net" className="btn btn-secondary">View Project</a>
               </div>
             </div>
           </div>

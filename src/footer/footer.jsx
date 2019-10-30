@@ -7,7 +7,7 @@ class Footer extends Component {
     return (
       <div className="pt-5 text-center">
         <div className="footer p-3">
-          <span>© {this.year} Maya Goldberg</span>
+          <span>&copy; {this.year} Maya Goldberg</span>
         </div>
       </div>
     );
