@@ -17,7 +17,7 @@ class Skills extends Component {
             </tr>
             <tr>
               <th className="text-right">Frontend Frameworks</th>
-              <td>React, Angular, Sencha</td>
+              <td>React, Angular, Ext JS</td>
               <th className="text-right">Databases</th>
               <td>PostgreSQL, MySQL, MongoDB</td>
             </tr>
