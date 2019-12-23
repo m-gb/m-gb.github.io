@@ -19,11 +19,11 @@ class Skills extends Component {
               <th className="text-right">Frontend Frameworks</th>
               <td>Angular, Ext JS, React</td>
               <th className="text-right">Databases</th>
-              <td>PostgreSQL, MySQL, MongoDB</td>
+              <td>MySQL, PostgreSQL, MongoDB</td>
             </tr>
             <tr>
               <th className="text-right">Backend Frameworks</th>
-              <td>Node.JS, PHP Laravel, Ruby on Rails</td>
+              <td>PHP Laravel, Ruby on Rails, Node.JS</td>
               <th className="text-right">Tools</th>
               <td>Git, Jenkins, Docker, JIRA, Photoshop</td>
             </tr>
