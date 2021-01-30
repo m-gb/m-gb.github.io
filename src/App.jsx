@@ -25,11 +25,34 @@ class App extends Component {
         <main className="container">
           <Projects />
           <Skills />
-          <Contact />
         </main>
         <Footer />
       </div>
     );
+  }
+
+  componentDidMount() {
+    window.addEventListener('scroll', this.handleScroll);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this.handleScroll);
+  }
+
+  handleScroll() {
+    var introductionElement = document.getElementById("introduction");
+    var navbarElement = document.getElementById("navbar");
+    // Calculate offset bottom of introduction component
+    var introductionBottom = introductionElement.offsetTop + introductionElement.offsetHeight;
+    if (window.pageYOffset >= introductionBottom) {
+      navbarElement.classList.remove("nav-bottom");
+      navbarElement.classList.add("sticky-top");
+      navbarElement.classList.add("nav-style");
+    } else {
+      navbarElement.classList.remove("sticky-top");
+      navbarElement.classList.remove("nav-style");
+      navbarElement.classList.add("nav-bottom");
+    }
   }
 }
 
