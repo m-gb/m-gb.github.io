@@ -1,6 +1,9 @@
 @media screen and (min-width: 1200px) {
-    #projects, #skills, #contact {
+    #skills {
         height: 80vh;
+    }
+    #projects {
+        height: 100vh;
     }
 }
 
