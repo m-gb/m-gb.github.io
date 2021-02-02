@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import NavBar from './navbar/navbar.jsx';
-import Introduction from './introduction/introduction.jsx';
+import Home from './home/home.jsx';
 import Projects from './projects/projects.jsx';
 import Skills from './skills/skills.jsx';
 import Footer from './footer/footer.jsx';
@@ -19,7 +19,7 @@ class App extends Component {
   render() {
     return (
       <div className="main">
-        <Introduction />
+        <Home />
         <NavBar />
         <main className="container">
           <Projects />
@@ -39,11 +39,11 @@ class App extends Component {
   }
 
   handleScroll() {
-    var introductionElement = document.getElementById("introduction");
+    var homeElement = document.getElementById("home");
     var navbarElement = document.getElementById("navbar");
-    // Calculate offset bottom of introduction component
-    var introductionBottom = introductionElement.offsetTop + introductionElement.offsetHeight;
-    if (window.pageYOffset >= introductionBottom) {
+    // Calculate offset bottom of home component
+    var homeBottom = homeElement.offsetTop + homeElement.offsetHeight;
+    if (window.pageYOffset >= homeBottom) {
       navbarElement.classList.remove("nav-bottom");
       navbarElement.classList.add("sticky-top");
       navbarElement.classList.add("nav-style");

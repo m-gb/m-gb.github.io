@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import Particles from 'react-particles-js';
-import './introduction.css';
+import './home.css';
 
-class Introduction extends Component {
+class Home extends Component {
   particle_params = {
     "particles": {
       "number": {
@@ -27,7 +27,7 @@ class Introduction extends Component {
   }
   render() {
     return (
-      <div id="introduction">
+      <div id="home">
         <Particles
           height="100vh"
           params={this.particle_params}
@@ -41,4 +41,4 @@ class Introduction extends Component {
   }
 }
 
-export default Introduction;
+export default Home;
