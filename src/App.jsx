@@ -4,6 +4,7 @@ import NavBar from './navbar/navbar.jsx';
 import Home from './home/home.jsx';
 import Projects from './projects/projects.jsx';
 import Skills from './skills/skills.jsx';
+import Experience from './experience/experience.jsx';
 import Footer from './footer/footer.jsx';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -23,6 +24,7 @@ class App extends Component {
         <NavBar />
         <main className="container">
           <Projects />
+          <Experience />
           <Skills />
         </main>
         <Footer />

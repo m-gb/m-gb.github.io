@@ -5,10 +5,10 @@ import './skills.css';
 class Skills extends Component {
   render() {
     return (
-      <div id="skills" data-aos="fade-up" className="py-5">
+      <div id="skills" data-aos="fade-up">
         <h1 className="font-weight-bold py-5 text-center"><i className="fas fa-tools pr-3" />Skills & Tools</h1>
         <Table borderless responsive="lg">
-          <tbody>
+          <tbody className="skills-table">
             <tr>
               <th className="text-right w-50">Programming Languages</th>
               <td className="text-left">JavaScript, PHP, Ruby</td>

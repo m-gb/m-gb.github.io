@@ -1,0 +1,25 @@
+.job-year {
+    font-size: 1.1rem;
+    font-style: italic;
+    margin-bottom: 0.3rem;
+}
+
+.job-location {
+    font-size: 1.1rem;
+}
+
+.job-company {
+    font-size: 1.1rem;
+}
+
+.job-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.job-description {
+    font-size: 1.2rem;
+    padding: 0;
+    list-style-position: inside;
+}
