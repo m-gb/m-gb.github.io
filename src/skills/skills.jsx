@@ -6,7 +6,7 @@ class Skills extends Component {
   render() {
     return (
       <div id="skills" data-aos="fade-up">
-        <h1 className="font-weight-bold py-5 text-center"><i className="fas fa-tools pr-3" />Skills & Tools</h1>
+        <h1 className="font-weight-bold text-center py-5"><i className="fas fa-tools pr-3" />Skills & Tools</h1>
         <Table borderless responsive="lg">
           <tbody className="skills-table">
             <tr>

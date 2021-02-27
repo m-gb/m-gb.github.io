@@ -5,9 +5,9 @@ class Projects extends Component {
   render() {
     return (
       <div id="projects" data-aos="fade-up">
-        <h1 className="font-weight-bold py-5 text-center"><i className="fas fa-code pr-3" />Recent Projects</h1>
+        <h1 className="font-weight-bold text-center py-5"><i className="fas fa-code pr-3" />Recent Projects</h1>
         <div className="row">
-          <div className="col-lg-4">
+          <div className="col-lg-4 py-3">
             <div className="card">
               <img className="img-fluid" src="/dashofoats.png" alt="Dash of Oats" />
               <div className="card-body">
@@ -18,7 +18,7 @@ class Projects extends Component {
               </div>
             </div>
           </div>
-          <div className="col-lg-4">
+          <div className="col-lg-4 py-3">
             <div className="card">
               <img className="img-fluid" src="/starrynight.png" alt="Starry Night" />
               <div className="card-body">
@@ -29,7 +29,7 @@ class Projects extends Component {
               </div>
             </div>
           </div>
-          <div className="col-lg-4">
+          <div className="col-lg-4 py-3">
             <div className="card">
               <img className="img-fluid" src="/github.png" alt="GitHub" />
               <div className="card-body">

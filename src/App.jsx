@@ -40,6 +40,7 @@ class App extends Component {
     window.removeEventListener('scroll', this.handleScroll);
   }
 
+  // Move navbar from bottom to top when scrolling past it
   handleScroll() {
     var homeElement = document.getElementById("home");
     var navbarElement = document.getElementById("navbar");
