@@ -5,7 +5,7 @@ html {
 
 body {
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Karla', sans-serif;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -18,32 +18,15 @@ body {
   content: "";
 }
 
-@media screen and (max-width: 1200px) {
-  #projects {
-    padding-top: 40vh;
-    padding-bottom: 50vh;
-    }
-  #experience {
-    padding-top: 50vh;
-    padding-bottom: 50vh;
-  }
-  #skills {
-    padding-top: 50vh;
-    padding-bottom: 20vh;
-  }
+#projects {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
 }
-
-@media screen and (min-width: 1200px) {
-  #projects {
-    padding-top: 10vh;
-    padding-bottom: 20vh;
-  }
-  #experience {
-    padding-top: 10vh;
-    padding-bottom: 20vh;
-  }
-  #skills {
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-  }
+#experience {
+  padding-top: 10vh;
+  padding-bottom: 20vh;
+}
+#skills {
+  padding-top: 10vh;
+  padding-bottom: 20vh;
 }

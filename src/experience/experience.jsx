@@ -5,7 +5,7 @@ class Experience extends Component {
   render() {
     return (
       <div id="experience" data-aos="fade-up">
-        <h1 className="font-weight-bold py-5 text-center"><i className="fas fa-briefcase pr-3" />Work Experience</h1>
+        <h1 className="font-weight-bold py-5 text-center">Work Experience</h1>
         <div className="row">
           <div className="col-lg-3 text-right">
             <p className="job-year">2017-2018</p>
