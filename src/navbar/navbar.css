@@ -21,7 +21,7 @@ div > a:hover .nav-link-text {
 }
 
 .nav-style {
-    opacity: 95%;
+    opacity: 0.9;
     background: linear-gradient(to right, black, #010f5e);
 }
 
