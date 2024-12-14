@@ -16,15 +16,15 @@ const InfoComponent = () => {
       <div className="text-white py-3">
         <div className="flex flex-row">
           <div className="basis-1/3 flex justify-start items-center">
-            <HashLink to="/#home" className="px-3"><FontAwesomeIcon icon={['fas', 'house']} size="xl" /></HashLink>
-            <HashLink to="/#experience" className="px-3"><FontAwesomeIcon icon={['fas', 'briefcase']} size="xl" /></HashLink>
+            {/* <HashLink to="/#home" className="px-3"><FontAwesomeIcon icon={['fas', 'house']} size="xl" /></HashLink>
+            <HashLink to="/#experience" className="px-3"><FontAwesomeIcon icon={['fas', 'briefcase']} size="xl" /></HashLink> */}
           </div>
           <div className="basis-1/3 flex justify-center items-center">
             <HashLink to="/#experience"><FontAwesomeIcon icon={['fas', 'angles-down']} size="2xl" /></HashLink>
           </div>
           <div className="basis-1/3 flex justify-end items-center">
-            <HashLink to="https://github.com/m-gb"><FontAwesomeIcon icon={['fab', 'github']} size="xl" /></HashLink>
-            <HashLink to="https://www.linkedin.com/in/maya-goldberg-528689150" className="px-3"><FontAwesomeIcon icon={['fab', 'linkedin']} size="xl" /></HashLink>
+            {/* <HashLink to="https://github.com/m-gb"><FontAwesomeIcon icon={['fab', 'github']} size="xl" /></HashLink>
+            <HashLink to="https://www.linkedin.com/in/maya-goldberg-528689150" className="px-3"><FontAwesomeIcon icon={['fab', 'linkedin']} size="xl" /></HashLink> */}
           </div>
         </div>
       </div>
