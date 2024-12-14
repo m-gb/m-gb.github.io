@@ -10,7 +10,7 @@ const InfoComponent = () => {
       <div className="basis-1/2 h-full">
         <IntroductionComponent />
       </div>
-      <div className="h-full">
+      <div className="basis-1/2 h-full">
         <SkillsComponent />
       </div>
       <div className="text-white py-3">

@@ -43,7 +43,7 @@ export default function ParticleComponent() {
             mode: "push",
           },
           onHover: {
-            enable: false,
+            enable: true,
             mode: "repulse",
           },
         },
@@ -59,12 +59,12 @@ export default function ParticleComponent() {
       },
       particles: {
         color: {
-          value: "#F8DE7E",
+          value: "#ffffff",
         },
         links: {
           color: "#ffffff",
           distance: 150,
-          enable: false,
+          enable: true,
           opacity: 0.5,
           width: 1,
         },
@@ -74,15 +74,15 @@ export default function ParticleComponent() {
           outModes: {
             default: OutMode.bounce,
           },
-          random: false,
-          speed: 1,
+          random: true,
+          speed: 5,
           straight: false,
         },
         number: {
           density: {
-            enable: false,
+            enable: true,
           },
-          value: 100,
+          value: 120,
         },
         opacity: {
           value: 0.5,
