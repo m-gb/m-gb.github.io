@@ -10,6 +10,7 @@ import {
 // import { loadFull } from "tsparticles"; // if you are going to use `loadFull`, install the "tsparticles" package too.
 import { loadSlim } from "@tsparticles/slim"; // if you are going to use `loadSlim`, install the "@tsparticles/slim" package too.
 // import { loadBasic } from "@tsparticles/basic"; // if you are going to use `loadBasic`, install the "@tsparticles/basic" package too.
+import './particle.css'
 
 export default function ParticleComponent() {
   const [init, setInit] = useState(false);
@@ -95,6 +96,7 @@ export default function ParticleComponent() {
         },
       },
       detectRetina: true,
+      fullScreen: false
     }),
     [],
   );
