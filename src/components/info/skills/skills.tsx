@@ -21,10 +21,12 @@ const SkillsComponent = () => {
   })
 
   return (
-    <section className="flex flex-col h-full text-center text-neutral-300">
-      <h3 className="text-3xl text-bold py-3">Skills</h3>
-      <div className="flex flex-col align-center justify-center md:text-base text-sm">
-        {columns}
+    <section className="flex flex-col items-center h-full text-center text-neutral-300">
+      <div className="flex flex-col md:w-1/3 w-2/3 md:border md:rounded md:border-neutral-300 md:bg-black md:p-8 gap-3">
+        <h3 className="text-3xl text-bold py-3 underline">Skills</h3>
+        <div className="flex flex-col align-center justify-center md:text-base text-sm">
+          {columns}
+        </div>
       </div>
     </section>
   )

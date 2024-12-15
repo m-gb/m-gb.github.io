@@ -41,21 +41,20 @@ const ExperienceComponent = () => {
     return <div className="flex flex-col justify-center pb-5" key={`${company}-${index}`}>
       <span className="w-full md:text-base text-sm md:text-left"><b>{titles[index]}</b> <i>{years[index]}</i></span>
       <span className="w-full md:text-base text-sm md:text-left"><b>{company}</b> <i>{locations[index]}</i></span>
-      <span className="w-full md:text-base text-sm md:text-left md:pl-5">{descriptions_pt1[index]}</span>
-      <span className="w-full md:text-base text-sm md:text-left md:pl-5">{descriptions_pt2[index]}</span>
-      <span className="w-full md:text-base text-sm md:text-left md:pl-5">{descriptions_pt3[index]}</span>
+      <ul className="list-disc md:pl-5">
+        <li className="w-full md:text-base text-sm md:text-left">{descriptions_pt1[index]}</li>
+        <li className="w-full md:text-base text-sm md:text-left">{descriptions_pt2[index]}</li>
+        {(descriptions_pt3[index]) ? <li className="w-full md:text-base text-sm md:text-left">{descriptions_pt3[index]}</li> : <span></span> }
+      </ul>
     </div >
   })
 
   return (
-    <section id="experience" className="bg-experience flex flex-col h-full">
-      <div className="flex flex-col h-full text-center text-neutral-300">
-        <div className="flex flex-col grow align-center justify-center md:text-base text-sm">
-          <h3 className="text-3xl text-bold py-3">Work Experience</h3>
-          <div className="flex flex-row align-center">
-            <span className="md:w-1/3"></span>
-            <span className="md:w-1/3">{columns}</span>
-          </div>
+    <section id="experience" className="bg-experience items-center flex flex-col h-full">
+      <div className="flex flex-col h-full md:w-1/3 w-2/3 justify-center text-center text-neutral-300">
+        <div className="flex flex-col md:text-base text-sm md:border md:rounded md:border-neutral-300 md:bg-black md:p-8 gap-3">
+          <h3 className="text-3xl text-bold py-3 underline">Work Experience</h3>
+          {columns}
         </div>
       </div>
       <FooterComponent />

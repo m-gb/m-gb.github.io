@@ -13,7 +13,7 @@ const HomeComponent = () => {
         </div>
         <div className="basis-2/4 flex flex-col justify-center items-center font-lora unselectable">
             <h1 className="text-4xl font-bold">Maya Goldberg</h1>
-            <span className="text-xl">QA Engineer | Developer</span>
+            <span className="text-xl">QA Engineer | Web Developer</span>
         </div>
         <div className="basis-1/4 absolute bottom-0 inset-x-0 py-3">
           <div className="flex flex-row">
